@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Gursewak Singh",
+    "company": "Dael Developers",
+    "phone": 1234567890
+  },
+  {
+    "id": 2,
+    "name": "Dael Singh",
+    "company": "Swagger Developers",
+    "phone": 1258749630
+  },
+  {
+    "id": 3,
+    "name": "Swagger Singh",
+    "company": "Singh Developers",
+    "phone": 7891236540
+  },
+  {
+    "id": 4,
+    "name": "Lucifer",
+    "company": "Black Developers",
+    "phone": 7539164820
+  }
+]

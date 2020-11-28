@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+:root {
+  --lighting-color: #f4f4f4;
+  --dark-color: #333333;
+  --current: #bbbbbb;
+}
+
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--lighting-color);
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.l-heading {
+  font-size: 2rem;
+}
+
+.current {
+  background: var(--current);
+  border-bottom: 3px solid var(--dark-color);
+}
+
+.btn {
+  border: none;
+  background-color: #777;
+  padding: 0.5rem 1.2rem;
+  color: var(--lighting-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Navbar */
+header {
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.8rem;
+  padding-bottom: 0.3rem;
+}
+
+.nav_search {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.nav_search .search div {
+  display: inline-block;
+}
+
+.nav_search .search input {
+  width: 160px;
+  outline: none;
+  font-size: 1.3rem;
+  border: none;
+  background: transparent;
+}
+
+.nav_search .search_btn {
+  background: transparent;
+  color: var(--dark-color);
+  padding: 0;
+  outline: none;
+}
+
+.nav_links ul {
+  height: 100%;
+}
+
+.nav_links ul li {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  height: 100%;
+  border-radius: 7px 7px 0 0;
+}
+
+.nav_links ul li a {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "main main list";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 0.6rem;
+  margin: 2rem auto;
+}
+
+#main-content {
+  grid-area: main;
+}
+#main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+
+#main-content .sub-contents {
+  text-align: left;
+}
+#main-content .sub-contents .sub-content .line {
+  width: 50%;
+  border-bottom: 2px solid rgba(3, 3, 3, 0.1);
+}
+
+#main-content .sub-contents .sub-content {
+  margin-bottom: 0.6rem;
+  padding: 0.6rem 0.3rem;
+}
+
+#services-list {
+  grid-area: list;
+  align-self: start;
+}
+
+#services-list h2 {
+  font-size: 2rem;
+}
+
+.service-list {
+  display: block;
+  padding: 0.6rem;
+  border-bottom: 1px dotted var(--dark-color);
+  font-size: 1.3rem;
+}
+.service-list:last-child {
+  border-bottom: none;
+}
+
+#test {
+  font-size: 2.3rem;
+}
